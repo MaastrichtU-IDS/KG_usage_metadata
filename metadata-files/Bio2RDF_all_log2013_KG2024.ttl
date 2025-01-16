@@ -1,0 +1,957 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sch: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://bio2rdf.org/affymetrix_vocabulary:Genechip-Array> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 18 .
+
+<http://bio2rdf.org/affymetrix_vocabulary:Probeset> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 986 .
+
+<http://bio2rdf.org/affymetrix_vocabulary:genechip-array> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 15 .
+
+<http://bio2rdf.org/ctd_vocabulary:Chemical> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 502 .
+
+<http://bio2rdf.org/ctd_vocabulary:Chemical-Disease-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 130 .
+
+<http://bio2rdf.org/ctd_vocabulary:Chemical-Gene-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 153 .
+
+<http://bio2rdf.org/ctd_vocabulary:Chemical-Pathway-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 24 .
+
+<http://bio2rdf.org/ctd_vocabulary:Disease> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 331 .
+
+<http://bio2rdf.org/ctd_vocabulary:Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 381 .
+
+<http://bio2rdf.org/ctd_vocabulary:Pathway> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 23 .
+
+<http://bio2rdf.org/ctd_vocabulary:chemical> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 451 .
+
+<http://bio2rdf.org/ctd_vocabulary:disease> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1079 .
+
+<http://bio2rdf.org/ctd_vocabulary:gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1234 .
+
+<http://bio2rdf.org/ctd_vocabulary:pathway> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 624 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Absorption> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 244 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Affected-organism> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 194 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Bioavailability> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 236 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Biotech> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Boiling-Point> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 242 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Caco2-Permeability> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 202 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Carrier> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 238 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Carrier-Relation> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 176 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Category> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 251 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Clearance> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 244 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Country> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 43 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Dosage> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 8 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Drug> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 14789 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Drug-Drug-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1380 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Enzyme> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 272 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Enzyme-Relation> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 175 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Experimental-properties> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Food-interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 236 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Form> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Ghose-Filter> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 249 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Group> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 194 .
+
+<http://bio2rdf.org/drugbank_vocabulary:H-Bond-Acceptor-Count> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 241 .
+
+<http://bio2rdf.org/drugbank_vocabulary:H-Bond-Donor-Count> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 259 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Half-life> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 234 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Hydrophobicity> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 231 .
+
+<http://bio2rdf.org/drugbank_vocabulary:IUPAC-Name> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 250 .
+
+<http://bio2rdf.org/drugbank_vocabulary:InChI> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 257 .
+
+<http://bio2rdf.org/drugbank_vocabulary:InChIKey> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 239 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Indication> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 252 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Ingredient> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Isoelectric-Point> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 217 .
+
+<http://bio2rdf.org/drugbank_vocabulary:LogP> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 263 .
+
+<http://bio2rdf.org/drugbank_vocabulary:LogS> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 255 .
+
+<http://bio2rdf.org/drugbank_vocabulary:MDDR-Like-Rule> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 252 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Manufacturer> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 255 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Mechanism-of-action> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 253 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Melting-Point> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 243 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Mixture> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 255 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Molecular-Formula> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 239 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Molecular-Weight> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 247 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Monoisotopic-Weight> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 249 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Name> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 2 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Number-of-Rings> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 254 .
+
+<http://bio2rdf.org/drugbank_vocabulary:PKa> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 242 .
+
+<http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-acidic)> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 239 .
+
+<http://bio2rdf.org/drugbank_vocabulary:PKa-(strongest-basic)> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 241 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Patent> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 521 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Pharmaceutical> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 286 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Physiological-Charge> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 260 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Polar-Surface-Area-(PSA)> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 248 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Polarizability> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 242 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Protein-binding> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 261 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Refractivity> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 269 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Rotatable-Bond-Count> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 238 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Route> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 2 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Route-of-elimination> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 358 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Rule-of-Five> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 259 .
+
+<http://bio2rdf.org/drugbank_vocabulary:SMILES> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 291 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Salt> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 237 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Small-molecule> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Source> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 284 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Synonym> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 258 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Target> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 18409 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Target-Relation> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 186 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Toxicity> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 241 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Traditional-IUPAC-Name> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 243 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Transporter> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 271 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Transporter-Relation> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 191 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Unit> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 205 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Volume-of-distribution> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 254 .
+
+<http://bio2rdf.org/drugbank_vocabulary:Water-Solubility> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 263 .
+
+<http://bio2rdf.org/drugbank_vocabulary:absorption> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 157 .
+
+<http://bio2rdf.org/drugbank_vocabulary:affected-organism> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 154 .
+
+<http://bio2rdf.org/drugbank_vocabulary:brand> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 128 .
+
+<http://bio2rdf.org/drugbank_vocabulary:calculated-properties> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 97 .
+
+<http://bio2rdf.org/drugbank_vocabulary:carrier> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 10 .
+
+<http://bio2rdf.org/drugbank_vocabulary:category> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1058 .
+
+<http://bio2rdf.org/drugbank_vocabulary:clearance> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 40 .
+
+<http://bio2rdf.org/drugbank_vocabulary:country> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 10 .
+
+<http://bio2rdf.org/drugbank_vocabulary:ddi-interactor-in> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 655 .
+
+<http://bio2rdf.org/drugbank_vocabulary:dosage> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 602 .
+
+<http://bio2rdf.org/drugbank_vocabulary:drug> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 18885 .
+
+<http://bio2rdf.org/drugbank_vocabulary:enzyme> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 246 .
+
+<http://bio2rdf.org/drugbank_vocabulary:experimental-properties> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 33 .
+
+<http://bio2rdf.org/drugbank_vocabulary:food-interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 44 .
+
+<http://bio2rdf.org/drugbank_vocabulary:form> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 11 .
+
+<http://bio2rdf.org/drugbank_vocabulary:group> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/drugbank_vocabulary:half-life> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 189 .
+
+<http://bio2rdf.org/drugbank_vocabulary:indication> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 30381 .
+
+<http://bio2rdf.org/drugbank_vocabulary:ingredient> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 15 .
+
+<http://bio2rdf.org/drugbank_vocabulary:manufacturer> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 64 .
+
+<http://bio2rdf.org/drugbank_vocabulary:mechanism-of-action> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 133 .
+
+<http://bio2rdf.org/drugbank_vocabulary:mixture> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 6 .
+
+<http://bio2rdf.org/drugbank_vocabulary:patent> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 174 .
+
+<http://bio2rdf.org/drugbank_vocabulary:product> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 55 .
+
+<http://bio2rdf.org/drugbank_vocabulary:protein-binding> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 75 .
+
+<http://bio2rdf.org/drugbank_vocabulary:route> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
+<http://bio2rdf.org/drugbank_vocabulary:route-of-elimination> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 158 .
+
+<http://bio2rdf.org/drugbank_vocabulary:salt> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
+<http://bio2rdf.org/drugbank_vocabulary:source> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 71 .
+
+<http://bio2rdf.org/drugbank_vocabulary:synonym> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 29662 .
+
+<http://bio2rdf.org/drugbank_vocabulary:target> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 47415 .
+
+<http://bio2rdf.org/drugbank_vocabulary:toxicity> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 165 .
+
+<http://bio2rdf.org/drugbank_vocabulary:transporter> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 112 .
+
+<http://bio2rdf.org/drugbank_vocabulary:volume-of-distribution> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 95 .
+
+<http://bio2rdf.org/goa_vocabulary:GO-Annotation> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 290 .
+
+<http://bio2rdf.org/goa_vocabulary:go-annotation> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 7 .
+
+<http://bio2rdf.org/goa_vocabulary:target> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 9 .
+
+<http://bio2rdf.org/hgnc_vocabulary:Approved-Gene-Symbol> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 76 .
+
+<http://bio2rdf.org/hgnc_vocabulary:Gene-Symbol> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 158 .
+
+<http://bio2rdf.org/hgnc_vocabulary:has-approved-symbol> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
+<http://bio2rdf.org/hgnc_vocabulary:is-approved-symbol-of> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
+<http://bio2rdf.org/hgnc_vocabulary:previous-symbol> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/hgnc_vocabulary:status> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 755 .
+
+<http://bio2rdf.org/homologene_vocabulary:Homologene-Group> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 76 .
+
+<http://bio2rdf.org/irefindex_vocabulary:Homopolymeric-Complex> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 41 .
+
+<http://bio2rdf.org/irefindex_vocabulary:Multimeric-Complex> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5316 .
+
+<http://bio2rdf.org/irefindex_vocabulary:Pairwise-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 10884 .
+
+<http://bio2rdf.org/irefindex_vocabulary:Taxon-Sequence-Identical-Group> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 15 .
+
+<http://bio2rdf.org/irefindex_vocabulary:Taxon-Sequence-Similar-Group> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 12 .
+
+<http://bio2rdf.org/irefindex_vocabulary:article> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 52 .
+
+<http://bio2rdf.org/irefindex_vocabulary:expansion-method> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 40 .
+
+<http://bio2rdf.org/irefindex_vocabulary:interactor_a> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 42888 .
+
+<http://bio2rdf.org/irefindex_vocabulary:interactor_b> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 25311 .
+
+<http://bio2rdf.org/kegg_vocabulary:Compound> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 56 .
+
+<http://bio2rdf.org/kegg_vocabulary:Disease> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/kegg_vocabulary:Drug> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 207 .
+
+<http://bio2rdf.org/kegg_vocabulary:Environ> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
+<http://bio2rdf.org/kegg_vocabulary:Enzyme> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 153 .
+
+<http://bio2rdf.org/kegg_vocabulary:Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 197 .
+
+<http://bio2rdf.org/kegg_vocabulary:Genome> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/kegg_vocabulary:Glycan> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 23 .
+
+<http://bio2rdf.org/kegg_vocabulary:Ko> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/kegg_vocabulary:Pathway> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 404 .
+
+<http://bio2rdf.org/kegg_vocabulary:Reaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 116 .
+
+<http://bio2rdf.org/kegg_vocabulary:Target> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 2 .
+
+<http://bio2rdf.org/kegg_vocabulary:gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/kegg_vocabulary:pathway> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 9 .
+
+<http://bio2rdf.org/kegg_vocabulary:product> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/kegg_vocabulary:substrate> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/mgi_vocabulary:Allele> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 102 .
+
+<http://bio2rdf.org/mgi_vocabulary:BAC/YAC-end> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 84 .
+
+<http://bio2rdf.org/mgi_vocabulary:Complex/Cluster/Region> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 95 .
+
+<http://bio2rdf.org/mgi_vocabulary:Cytogenetic-Marker> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 84 .
+
+<http://bio2rdf.org/mgi_vocabulary:DNA-Segment> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 94 .
+
+<http://bio2rdf.org/mgi_vocabulary:Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 102 .
+
+<http://bio2rdf.org/mgi_vocabulary:Genotype> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3509 .
+
+<http://bio2rdf.org/mgi_vocabulary:Marker> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 67 .
+
+<http://bio2rdf.org/mgi_vocabulary:Other-Genome-Feature> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 90 .
+
+<http://bio2rdf.org/mgi_vocabulary:Pseudogene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 97 .
+
+<http://bio2rdf.org/mgi_vocabulary:Strain> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 99 .
+
+<http://bio2rdf.org/mgi_vocabulary:Transgene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 86 .
+
+<http://bio2rdf.org/mgi_vocabulary:allele> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3024 .
+
+<http://bio2rdf.org/mgi_vocabulary:marker> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3249 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 44 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Gene-component-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 11 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Gene-function-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 12 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Gene-process-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 13 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:MiscRNA-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 33 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:NcRNA-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 35 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Other-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 36 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Protein-coding-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Pseudo-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 40 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:RRNA-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 31 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:ScRNA-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 28 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:SnRNA-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 34 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:SnoRNA-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 38 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:TRNA-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 28 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:Unknown-Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 39 .
+
+<http://bio2rdf.org/ncbigene_vocabulary:gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5 .
+
+<http://bio2rdf.org/omim_vocabulary:Allelic-Variant> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 197 .
+
+<http://bio2rdf.org/omim_vocabulary:Characteristic> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 204 .
+
+<http://bio2rdf.org/omim_vocabulary:Clinical-Synopsis> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 237 .
+
+<http://bio2rdf.org/omim_vocabulary:Entity> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 163 .
+
+<http://bio2rdf.org/omim_vocabulary:Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 10547 .
+
+<http://bio2rdf.org/omim_vocabulary:Gene-phenotype> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 343 .
+
+<http://bio2rdf.org/omim_vocabulary:Phenotype> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 11377 .
+
+<http://bio2rdf.org/omim_vocabulary:Predominantly-phenotypes> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 246 .
+
+<http://bio2rdf.org/omim_vocabulary:characteristic-of> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 12 .
+
+<http://bio2rdf.org/omim_vocabulary:clinical-synopsis> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 658 .
+
+<http://bio2rdf.org/omim_vocabulary:feature> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 664 .
+
+<http://bio2rdf.org/omim_vocabulary:mimNumber> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5 .
+
+<http://bio2rdf.org/omim_vocabulary:phenotype-map> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/omim_vocabulary:phenotypeMimNumber> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/omim_vocabulary:refers-to> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 169 .
+
+<http://bio2rdf.org/omim_vocabulary:variant> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 129 .
+
+<http://bio2rdf.org/omim_vocabulary:x-omim> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 67 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:Disease> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 237 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:Drug> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 150 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 60 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:disease> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 324 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:disease-gene-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 6 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:drug> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 2208 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:drug-gene-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:drug-haplotype-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1651 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:gene-disease-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:gene-drug-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 16 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:gene-gene-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:haplotype-disease-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:haplotype-drug-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 3 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:variantlocation> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 38 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:variantlocation-disease-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 2 .
+
+<http://bio2rdf.org/pharmgkb_vocabulary:variantlocation-drug-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 1 .
+
+<http://bio2rdf.org/sgd_vocabulary:AlanineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 442 .
+
+<http://bio2rdf.org/sgd_vocabulary:ArginineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 445 .
+
+<http://bio2rdf.org/sgd_vocabulary:AromaticityScore> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 443 .
+
+<http://bio2rdf.org/sgd_vocabulary:AsparagineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:AspartateCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 445 .
+
+<http://bio2rdf.org/sgd_vocabulary:Chromosome> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 491 .
+
+<http://bio2rdf.org/sgd_vocabulary:CodonAdaptationIndex> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 319 .
+
+<http://bio2rdf.org/sgd_vocabulary:CodonBias> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:Complex> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 443 .
+
+<http://bio2rdf.org/sgd_vocabulary:CrickStrand> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 488 .
+
+<http://bio2rdf.org/sgd_vocabulary:CysteinCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:Domain-Alignment> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 112 .
+
+<http://bio2rdf.org/sgd_vocabulary:Enzyme> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 454 .
+
+<http://bio2rdf.org/sgd_vocabulary:FrequencyOfOptimalCodons> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 443 .
+
+<http://bio2rdf.org/sgd_vocabulary:GRAVYScore> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:GlutamateCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:GlutamineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 443 .
+
+<http://bio2rdf.org/sgd_vocabulary:GlycineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:HistineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:IsolectricPoint> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 448 .
+
+<http://bio2rdf.org/sgd_vocabulary:IsoleucineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:LeucineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:Location> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 503 .
+
+<http://bio2rdf.org/sgd_vocabulary:LysineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 445 .
+
+<http://bio2rdf.org/sgd_vocabulary:MethionineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 442 .
+
+<http://bio2rdf.org/sgd_vocabulary:MolecularWeight> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 319 .
+
+<http://bio2rdf.org/sgd_vocabulary:Pathway> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 447 .
+
+<http://bio2rdf.org/sgd_vocabulary:Phenotype_Experiment> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 489 .
+
+<http://bio2rdf.org/sgd_vocabulary:PhenylalanineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 443 .
+
+<http://bio2rdf.org/sgd_vocabulary:ProlineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 445 .
+
+<http://bio2rdf.org/sgd_vocabulary:Protein> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 642 .
+
+<http://bio2rdf.org/sgd_vocabulary:RNA> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 465 .
+
+<http://bio2rdf.org/sgd_vocabulary:Reaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:Record> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 500 .
+
+<http://bio2rdf.org/sgd_vocabulary:SequenceLength> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 445 .
+
+<http://bio2rdf.org/sgd_vocabulary:SerineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 442 .
+
+<http://bio2rdf.org/sgd_vocabulary:SuperPathway> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 240 .
+
+<http://bio2rdf.org/sgd_vocabulary:ThreonineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:TryptophanCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:TyrosineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 445 .
+
+<http://bio2rdf.org/sgd_vocabulary:ValineCount> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 444 .
+
+<http://bio2rdf.org/sgd_vocabulary:chromosome> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 75 .
+
+<http://bio2rdf.org/sgd_vocabulary:has-participant> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 36 .
+
+<http://bio2rdf.org/sgd_vocabulary:has-proper-part> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 40 .
+
+<http://bio2rdf.org/sgd_vocabulary:is-proper-part-of> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 115 .
+
+<http://bio2rdf.org/sgd_vocabulary:query> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 7 .
+
+<http://bio2rdf.org/sgd_vocabulary:strand> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 66 .
+
+<http://bio2rdf.org/taxonomy_vocabulary:Division> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 67 .
+
+<http://bio2rdf.org/taxonomy_vocabulary:Embl-code> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 63 .
+
+<http://bio2rdf.org/taxonomy_vocabulary:Genetic-Code> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 85 .
+
+<http://bio2rdf.org/taxonomy_vocabulary:Rank> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 63 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Asynthetic-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 56 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Change_of_expression_level-Regulatory-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 126 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Change_of_localization-Regulatory-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Complete_suppression-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 126 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Complete_unilateral_suppression-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Cosmid> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Enhancement-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Epistasis-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 144857 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Gene-GO-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 22483 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Gene-Phenotype-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 22479 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Gene-Variant> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 130 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Maximal_epistasis-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Minimal_epistasis-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 56 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Mutual_enhancement-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Mutual_suppression-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Negative-Gene-Phenotype-Association> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 137 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Negative_genetic-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 126 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Opposing_epistasis-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 126 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Oversuppression_enhancement-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Partial_suppression-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Partial_unilateral_suppression-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Phenotype_bias-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Physical-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 115 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Publication> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 123 .
+
+<http://bio2rdf.org/wormbase_vocabulary:RNAi> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 126 .
+
+<http://bio2rdf.org/wormbase_vocabulary:RNAi-Knockdown-Experiment> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 22352 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Regulatory-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Suppression-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 126 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Synthetic-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 124 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Unilateral_enhancement-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:Unilateral_suppression-Genetic-Interaction> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 125 .
+
+<http://bio2rdf.org/wormbase_vocabulary:associated-gene-variant> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 8 .
+
+<http://bio2rdf.org/wormbase_vocabulary:associated-rnai-knockdown-experiment> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 8 .
+
+<http://bio2rdf.org/wormbase_vocabulary:cosmid> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5 .
+
+<http://bio2rdf.org/wormbase_vocabulary:gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 44705 .
+
+<http://bio2rdf.org/wormbase_vocabulary:genetically-interacts-with> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5 .
+
+<http://bio2rdf.org/wormbase_vocabulary:involves> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 69 .
+
+<http://bio2rdf.org/wormbase_vocabulary:physically-interacts-with> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5 .
+
+<http://bio2rdf.org/wormbase_vocabulary:publication> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 7 .
+
+<http://bio2rdf.org/wormbase_vocabulary:regulates> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 5 .
+
+<http://bio2rdf.org/wormbase_vocabulary:rnai> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 7 .
+
+<http://bio2rdf.org/wormbase_vocabulary:target-gene> a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 22222 .
+
+rdf:type a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 783992 .
+
+rdfs:subClassOf a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 38062 .
+
+owl:sameAs a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 17179 .
+
+owl:sourceIndividual a <https://www.wikidata.org/wiki/Q379825> ;
+    sch:frequency 4 .
+
