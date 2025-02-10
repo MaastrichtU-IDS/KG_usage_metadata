@@ -1,0 +1,4 @@
+subject,predicate,object,count
+drugbank,varvar,pharmgkb,3
+hgnc,varvar,mgi,3
+pharmgkb,varvar,drugbank,625
