@@ -6,14 +6,10 @@
 
 ### RDF Knowledge Graphs (KGs)
 
-Our analysis spans Wikidata SPARQL query logs from 2017 to 2018. To ensure alignment between schema and query logs, we downloaded the closest available Wikidata versions:
-
 - **Wikidata 2017**: [Internet Archive](https://archive.org/download/wikibase-wikidatawiki-20170821)  
 - **Wikidata 2018**: [Internet Archive](https://archive.org/download/wikibase-wikidatawiki-20180205)  
 
 Both versions were hosted on Blazegraph on a local server to analyze SPARQL schema coverage changes over time.
-
-For **Bio2RDF KG**, the analysis covers two periods of SPARQL query logs: one from 2013 and another from 2019. However, due to the unavailability of datasets from those years, we used the current **2024 public endpoint**:
 
 - **Bio2RDF SPARQL Endpoint**: [https://Bio2RDF.org/sparql/](https://Bio2RDF.org/sparql/)  
 
